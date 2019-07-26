@@ -22,6 +22,6 @@ module.exports = app
 if (require.main === module) {
   app.listen(PORT, (e) => {
     if (e) throw e
-    console.log(`listening on port ${PORT}`)
+    console.log(`listening on port hello ${PORT}`)
   })
 }
